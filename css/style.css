@@ -1,7 +1,51 @@
-html, body {
+html {
   margin: 0;
   padding: 0;
 }
+header {
+  width: 60vw;
+  text-align: center;
+  padding: 2.5em 0 2em 0;
+  margin: 0 auto;
+}
+body {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #000000;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
 canvas {
   display: block;
+}
+
+.image-header{
+  width: 20%;
+  float: left;
+  padding: 0 25px 25px 0;
+}
+
+.container-header{
+  display: inline-block;
+  text-align: justify;
+  vertical-align: top;
+}
+
+.container-header p{
+  font-size: 1.1em;
+}
+
+.container-header p{
+  font-size: 1.1em;
+}
+
+.texto-comoJogar{
+  font-weight: bold;
+}
+
+#canvas-jogo{
+  float: none;
+  width: fit-content;
+  margin: 0 auto;
 }

@@ -2,7 +2,8 @@ var width = 640;
 var height = 444;
 
 function setup() {
-  createCanvas(640, 444);
+  var myCanvas = createCanvas(640, 444);
+  myCanvas.parent('canvas-jogo');
 
   // Inicialização das Arrays de carros
   for (var i = 0; i < (imagemCarros.length/2); i++) {

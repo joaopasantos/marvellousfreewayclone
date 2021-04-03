@@ -6,12 +6,33 @@
   <script src="https://cdn.jsdelivr.net/npm/p5/lib/addons/p5.sound.min.js"></script>
   <script src="js/lib/p5.collide2d.js"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <title>marvellousfreewayclone</title>
 </head>
 
 <body>
+  <header>
+    <div class="container-header">
+      <img class="image-header" src="https://upload.wikimedia.org/wikipedia/en/8/89/Freeway_Cover.jpg">
+      <p>Freeway é um jogo de ação escrito por David Crane para o Atari 2600 e publicado pela Activision em 1981.</p>
+      <p>
+        Na versão original, um ou dois jogadores controlavam galinhas que podem correr por uma rodovia de dez pistas
+        cheia de tráfego em um esforço para "chegar ao outro lado".
+      </p>
+      <p>
+        Cada vez que a galinha atravessa a rodovia, o jogador ganha um ponto. Se atropelada por um carro, a galinha é
+        jogada para trás ou empurrada de volta para a parte inferior da tela, dependendo da dificuldade definida.
+      </p>
+      <p class="texto-comoJogar">
+        Como jogar:
+      </p>
+      <p>Utilize as setas para cima e para baixo para mover a galinha.</p>
 
+    </div>
+  </header>
+  <div id="canvas-jogo"></div>
   <script src="js/sketch.js"></script>
   <script src="js/loadAssets.js"></script>
   <script src="js/galinha.js"></script>
