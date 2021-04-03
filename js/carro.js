@@ -4,7 +4,7 @@ var alturaCarro = 22;
 var xCarro = [];
 var yCarro = [];
 var velocidadeCarro = [1, 1.8, 1.5, 1.3, 2,
-                        2.1, 1.2, 1.6, 1.7, 1.1
+    2.1, 1.2, 1.6, 1.7, 1.1
 ];
 var contadorSomBuzina = 0;
 
@@ -34,7 +34,7 @@ function carroRetornaPosicaoInicial() {
     for (var i = imagemCarros.length / 2; i < (imagemCarros.length); i++) {
         if (ultrapassouBordaDireita(xCarro[i])) {
             xCarro[i] = 0 - larguraCarro;
-            if(i == imagemCarros.length/2 + 1){
+            if (i == imagemCarros.length / 2 + 1) {
                 executaSonsDeBuzina();
             }
         }
@@ -49,10 +49,10 @@ function ultrapassouBordaDireita(x) {
     return (x > width)
 }
 
-function executaSonsDeBuzina(){
+function executaSonsDeBuzina() {
     somCarros[contadorSomBuzina].play();
     contadorSomBuzina++;
-    if (contadorSomBuzina>=somCarros.length){
+    if (contadorSomBuzina >= somCarros.length) {
         contadorSomBuzina = 0;
     }
 }

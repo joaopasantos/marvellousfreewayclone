@@ -1,7 +1,7 @@
 var meusPontos = 0;
 
 function desenhaPontos() {
-    fill('rgba(254,109,255,255)');
+  fill('rgba(254,109,255,255)');
   textSize(26);
   textFont(fontePontuacao);
   textStyle(BOLD);

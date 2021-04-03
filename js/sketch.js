@@ -6,13 +6,13 @@ function setup() {
   myCanvas.parent('canvas-jogo');
 
   // Inicialização das Arrays de carros
-  for (var i = 0; i < (imagemCarros.length/2); i++) {
+  for (var i = 0; i < (imagemCarros.length / 2); i++) {
     xCarro[i] = width;
     yCarro[i] = 50 + (35 * i);
   }
-  for (var i = imagemCarros.length/2; i < (imagemCarros.length); i++) {
+  for (var i = imagemCarros.length / 2; i < (imagemCarros.length); i++) {
     xCarro[i] = 0 - larguraCarro;
-    yCarro[i] = 230 + (35 * (i-5));
+    yCarro[i] = 230 + (35 * (i - 5));
   }
 
   // Ajuste do volume dos sons
