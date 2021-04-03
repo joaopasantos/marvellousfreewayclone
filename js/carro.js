@@ -22,3 +22,25 @@ function movimentaCarro() {
         xCarro[i] += velocidadeCarro[i];
     }
 }
+
+
+function carroRetornaPosicaoInicial() {
+    for (var i = 0; i < (imagemCarros.length / 2); i++) {
+        if (ultrapassouBordaEsquerda(xCarro[i])) {
+            xCarro[i] = 640;
+        }
+    }
+    for (var i = imagemCarros.length / 2; i < (imagemCarros.length); i++) {
+        if (ultrapassouBordaDireita(xCarro[i])) {
+            xCarro[i] = 0 - larguraCarro;
+        }
+    }
+}
+
+function ultrapassouBordaEsquerda(x) {
+    return (x < -larguraCarro);
+}
+
+function ultrapassouBordaDireita(x) {
+    return (x > width)
+}

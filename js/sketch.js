@@ -1,3 +1,6 @@
+var width = 640;
+var height = 444;
+
 function setup() {
   createCanvas(640, 444);
 
@@ -22,6 +25,7 @@ function draw() {
   movimentaGalinha();
   movimentaCarro();
 
+  carroRetornaPosicaoInicial();
   verificaColisao();
   marcaPonto();
 }
