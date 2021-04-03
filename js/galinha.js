@@ -2,7 +2,7 @@
 var larguraGalinha = 31;
 var alturaGalinha = 18;
 var xGalinha = 160;
-var yGalinhaInicial = 444 - alturaGalinha - 20;
+var yGalinhaInicial = height - alturaGalinha - 20;
 var yGalinha = yGalinhaInicial;
 var colidiu = false;
 

@@ -6,7 +6,7 @@ function setup() {
 
   // Inicialização
   for (var i = 0; i < (imagemCarros.length/2); i++) {
-    xCarro[i] = 640;
+    xCarro[i] = width;
     yCarro[i] = 50 + (35 * i);
   }
   for (var i = imagemCarros.length/2; i < (imagemCarros.length); i++) {

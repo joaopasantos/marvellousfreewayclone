@@ -27,7 +27,7 @@ function movimentaCarro() {
 function carroRetornaPosicaoInicial() {
     for (var i = 0; i < (imagemCarros.length / 2); i++) {
         if (ultrapassouBordaEsquerda(xCarro[i])) {
-            xCarro[i] = 640;
+            xCarro[i] = width;
         }
     }
     for (var i = imagemCarros.length / 2; i < (imagemCarros.length); i++) {
