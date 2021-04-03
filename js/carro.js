@@ -3,8 +3,8 @@ var larguraCarro = 35;
 var alturaCarro = 22;
 var xCarro = [];
 var yCarro = [];
-var velocidadeCarro = [1, 1.75, 1.5, 1.25, 2,
-    2, 1.25, 1.5, 1.75, 1
+var velocidadeCarro = [1, 1.8, 1.5, 1.3, 2,
+                        2.1, 1.2, 1.6, 1.7, 1.1
 ];
 var contadorSomBuzina = 0;
 
