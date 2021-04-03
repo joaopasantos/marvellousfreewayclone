@@ -11,6 +11,7 @@ function desenhaPontos() {
 
 function marcaPonto() {
   if (yGalinha < 20) {
+    somPonto.play();
     meusPontos += 1;
     retornaGalinha();
   }

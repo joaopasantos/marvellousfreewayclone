@@ -32,6 +32,7 @@ function verificaColisao() {
     colidiu = collideRectRect(xCarro[i], yCarro[i], larguraCarro, alturaCarro, 
       xGalinha, yGalinha, larguraGalinha, alturaGalinha);
     if (colidiu) {
+      somGalinha.play();
       retornaGalinha();
     }
   }
