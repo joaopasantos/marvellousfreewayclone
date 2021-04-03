@@ -6,7 +6,7 @@ function desenhaPontos() {
   textFont(fontePontuacao);
   textStyle(BOLD);
   textAlign(CENTER);
-  text(meusPontos, xGalinha + 35, 21);
+  text(meusPontos, xGalinha + 50, 21);
 }
 
 function marcaPonto() {
