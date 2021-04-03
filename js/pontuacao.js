@@ -2,11 +2,11 @@ var meusPontos = 0;
 
 function desenhaPontos() {
     fill('rgba(254,109,255,255)');
-  textSize(30);
+  textSize(26);
+  textFont(fontePontuacao);
   textStyle(BOLD);
   textAlign(CENTER);
-  textFont('MS Gothic');
-  text(meusPontos, xGalinha + 30, 25);
+  text(meusPontos, xGalinha + 33, 21);
 }
 
 function marcaPonto() {

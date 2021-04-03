@@ -1,3 +1,6 @@
+// Variável da Fonte
+var fontePontuacao;
+
 // Variáveis das Imagens
 var imagemEstrada;
 var imagemCarro1;
@@ -15,6 +18,8 @@ var somGalinha;
 var somCarros = [];
 
 function preload() {
+  fontePontuacao = loadFont('assets/fonte/retro_computer_personal_use.ttf');
+
   imagemCarro1 = loadImage('assets/imagens/carros/darkred-car.png');
   imagemCarro2 = loadImage('assets/imagens/carros/lightyellow-car.png');
   imagemCarro3 = loadImage('assets/imagens/carros/darkgreen-car.png');
