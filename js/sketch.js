@@ -17,7 +17,9 @@ function draw() {
 
   desenhaGalinha();
   desenhaCarro();
+  desenhaPontos();
 
   movimentaGalinha();
   movimentaCarro();
+  marcaPonto();
 }

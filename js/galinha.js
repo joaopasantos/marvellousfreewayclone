@@ -25,3 +25,7 @@ function movimentaGalinha() {
 function podeSeMover() {
   return yGalinha < yGalinhaInicial;
 }
+
+function retornaGalinha() {
+  yGalinha = yGalinhaInicial;
+}
